@@ -1,0 +1,28 @@
+.searchbar{
+     display: flex;
+     gap: 0.75em;
+}
+
+.search{
+     display: flex;
+     background-color: white;
+     border-radius: 10px;
+     padding: 5px;
+}
+.search > Input{
+     background-color:transparent;
+     border: none;
+     outline: none;
+}
+
+.searchicon{
+     display: flex;
+     align-items:center;
+     justify-content: center;
+     border-radius: 5px;
+     padding:4px;
+}
+
+.search:hover{
+     cursor: pointer;
+}
